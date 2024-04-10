@@ -1,0 +1,17 @@
+{
+    "nav":{
+        "link1": "About me", 
+        "link2": "What I do",
+        "link3": "Projects",
+        "link4": "Let's talk"
+    },
+    "home": {
+        "title": "Hi, I'm"
+    },
+    "about me":{},
+    "what i do": {},
+    "projects": {},
+    "contact":{}, 
+    "footer": {}
+
+}
