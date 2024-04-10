@@ -1,17 +1,47 @@
 {
     "nav":{
-        "link1": "About me", 
-        "link2": "What I do",
-        "link3": "Projects",
-        "link4": "Let's talk"
+        "link1": "Sobre mí", 
+        "link2": "Servicios",
+        "link3": "Proyectos",
+        "link4": "Contacto"
     },
     "home": {
-        "title": "Hola, soy"
+        "title": "Hola, soy",
+        "text1": "Desarrolladora full-stack creativa",
+        "text2":"Me apasiona transformar hermosos diseños en interfaces funcionales.",
+        "button-cta": "¡Hablemos!"
     },
-    "about me":{},
-    "what i do": {},
-    "projects": {},
-    "contact":{}, 
-    "footer": {}
+    "about me":{
+        "p1" : "🙋🏼‍♀️ Soy una desarrolladora full-stack de Córdoba, Argentina, con background en contabilidad. Me apasiona el código y siempre estoy aprendiendo. ",
+        "p2" : "🚀 Después de recibirme como contadora, descubrí la programación por curiosidad y encontré mi verdadera pasión. Entré al bootcamp Soy Henry para seguir desarrollando mis habilidades.",
+        "p3": "🎨 Soy muy creativa y disfruto creando experiencias atractivas y funcionales. Me siento cómoda trabajando en equipo, aportando mis habilidades para alcanzar objetivos compartidos.",
+        "p4": "🌟 Actualmente trabajo para la startup chilena Canal Cero, principalmente con Wordpress y mejorando continuamente. Siempre estoy ansiosa por aprender nuevas herramientas."
+    },
+    "what i do": {
+        "s1": "Desarrollo a medida",
+        "s2" : "Desarrollo Full Stack",
+        "s3": "Desarrollo en Wordpress",
+        "s4": "SEO y optimización de performance",
+        "s5": "Desarrollo responsive y UX/UI",
+        "s6": "Mantenimiento y soporte técnico"
+
+    },
+    "projects": {
+        "project-title1": "title1",
+        "project-description1": "description1",
+        "project-link": "link1",
+        "project-repo" : "repo1"
+    },
+    "contact":{
+        "title": "Contacto",
+        "form-title": "¿Algún proyecto en mente? Déjame un mensaje",
+        "form-placeholder1" :"Tu nombre",
+        "form-placeholder2": "Tu e-mail",
+        "form-placeholder3": "Tu mensaje",
+        "form-button-text": "Enviar"
+    }, 
+    "footer": {
+        "text" :"Diseñado y desarrollado con ♥ por"
+    }
 
 }

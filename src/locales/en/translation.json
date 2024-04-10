@@ -6,12 +6,43 @@
         "link4": "Let's talk"
     },
     "home": {
-        "title": "Hi, I'm"
+        "title": "Hi, I'm",
+        "text1": "A creative full-stack developer",
+        "text2":"I love turning beautiful designs into functional interfaces",
+        "button-cta": "Let’s talk!"
     },
-    "about me":{},
-    "what i do": {},
-    "projects": {},
-    "contact":{}, 
-    "footer": {}
+    "about me":{
+        "p1" : "🙋🏼‍♀️ I'm a full-stack developer from Córdoba, Argentina, with a background in accounting. I'm passionate about coding and always learning.",
+        "p2" : "🚀 After obtaining my accounting degree, I dove into programming out of curiosity and found my true passion. I joined the Soy Henry's bootcamp to further develop my skills.",
+        "p3": "🎨 I'm highly creative and enjoy crafting visually and functionally appealing experiences. I thrive in teamwork, contributing my skills to achieve shared goals.",
+        "p4": "🌟 Currently I’m working for the Chilean startup Canal Cero, primarily using WordPress and continuously improving my skills on the platform. I'm always eager to learn new tools."
+    },
+    "what i do": {
+        "s1": "Custom Web Development",
+        "s2" : "Full Stack Development",
+        "s3": "Wordpress development",
+        "s4": "SEO and Performance Optimization",
+        "s5": "Responsive Design and UX/UI",
+        "s6": "Maintenance and technical support"
+
+    },
+    "projects": {
+        "title": "Projects",
+        "project-title1": "title1",
+        "project-description1": "description1",
+        "project-link": "link1",
+        "project-repo" : "repo1"
+    },
+    "contact":{
+        "title": "Let's talk",
+        "form-title": "Have any project in mind? Leave me a message!",
+        "form-placeholder1" :"You name",
+        "form-placeholder2": "Your e-mail",
+        "form-placeholder3": "Your message",
+        "form-button-text": "Send"
+    }, 
+    "footer": {
+        "text" :"Designed and developed with ♥ by"
+    }
 
 }
