@@ -1,18 +1,23 @@
 import React from 'react';
-import i18n from './i18n';
 import { withNamespaces } from 'react-i18next';
+import Nav from './components/Nav/Nav';
+import Home from './components/Home/Home';
+import AboutMe from './components/AboutMe/AboutMe';
+import Services from './components/Services/Services';
+import Footer from './components/Footer/Footer';
 
-function App ({t}) {
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  }
+
+function App () {
+ 
 
   return (
-    <div>
-      <button onClick={() => changeLanguage('en')}>EN</button>
-      <button onClick={() => changeLanguage('es')}>ES</button>
-      <h1>{t("home.title")}</h1>
-    </div>
+    <>
+      <Nav />
+      <Home />
+      <AboutMe />
+      <Services />
+      <Footer />
+    </>
   )
 }
 
