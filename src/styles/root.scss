@@ -1,0 +1,16 @@
+* {
+    margin:0 ;
+    padding: 0;
+}
+
+:root{
+    $bg-color:linear-gradient(180deg, rgba(255,222,250,1) 0%, rgba(251,235,255,0.6) 100%);
+}
+
+[data-theme="dark"] {
+    $bg-color: #070509;
+}
+
+.app {
+    background: var($bg-color);
+}

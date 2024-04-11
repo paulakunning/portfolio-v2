@@ -2,7 +2,7 @@ import React from 'react'
 import i18n from '../../i18n';
 
 
-export default function Nav() {
+export default function Nav({handleChange, isChecked}) {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -21,7 +21,9 @@ export default function Nav() {
         <p>{i18n.t('nav.link4')}</p>
       </div>
       <div>
-        <button>dark/light mode</button>
+        <button onClick={handleChange} checked={isChecked} >dark/light mode</button>
+       {/* <input type="checkbox" id="check" onChange={handleChange} checked={isChecked} />
+       <label htmlFor="check">Dark mode</label> */}
       </div>
     </nav>
   )
