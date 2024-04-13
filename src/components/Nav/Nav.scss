@@ -1,0 +1,79 @@
+@import "/src/styles/root";
+
+
+nav {
+font-family: $FontMontserrat;
+font-size: 24px;
+display: flex;
+justify-content: space-between;
+color: var(--text-primary);
+
+.lang-btns-container { 
+    display: flex;
+    gap: 20px;
+    .active {
+        background-color: var(--lang-btn-bg-active);
+        color: var(--lang-btn-color-active);
+        border: 1px solid var(--lang-btn-border-active);
+        box-shadow: var(--lang-btn-active-shadow);
+    }
+    button {
+        cursor: pointer;
+        font-family: $FontMontserrat;
+        font-size: 24px;
+        padding: 15px 21px;
+        border-radius: 15px;
+        background-color: var(--lang-btn-bg);
+        color: var(--lang-btn-color);
+        border: 1px solid var(--lang-btn-border);
+        }
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 860px;
+    width: 100%;
+}
+.dark-mode-btn{
+    cursor: pointer;
+    padding: 12px 12px 10px 12px;
+    border-radius: 32px;
+    border: none;
+    background-color: #F5EBF8;
+    border: solid 1px #FFDEFA;
+}
+
+}
+@media screen and (max-width: 768px) {
+    nav, .close {
+        display: none;
+    }
+    
+    .show {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 80vh;
+        width: 100%;
+        .dark-mode-btn-container {
+            width: 50%;
+            margin-top: -50px;
+        }
+        .links-container{
+            flex-direction: column;
+            justify-content: space-between;
+            max-height: 350px;
+            width: 100%;
+            gap: 70px;
+        }
+        .lang-btns-container {
+            justify-content: center;
+        }
+    }
+
+
+}
+
+
+
