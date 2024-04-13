@@ -12,12 +12,14 @@
         "button-cta": "Let’s talk!"
     },
     "about":{
+        "title": "About me",
         "p1" : "🙋🏼‍♀️ I'm a full-stack developer from Córdoba, Argentina, with a background in accounting. I'm passionate about coding and always learning.",
         "p2" : "🚀 After obtaining my accounting degree, I dove into programming out of curiosity and found my true passion. I joined the Soy Henry's bootcamp to further develop my skills.",
         "p3": "🎨 I'm highly creative and enjoy crafting visually and functionally appealing experiences. I thrive in teamwork, contributing my skills to achieve shared goals.",
         "p4": "🌟 Currently I’m working for the Chilean startup Canal Cero, primarily using WordPress and continuously improving my skills on the platform. I'm always eager to learn new tools."
     },
     "services": {
+        "title": "What I do",
         "s1": "Custom Web Development",
         "s2" : "Full Stack Development",
         "s3": "Wordpress development",

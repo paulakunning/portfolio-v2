@@ -12,12 +12,14 @@
         "button-cta": "¡Hablemos!"
     },
     "about":{
+        "title": "Sobre mí",
         "p1" : "🙋🏼‍♀️ Soy una desarrolladora full-stack de Córdoba, Argentina, con background en contabilidad. Me apasiona el código y siempre estoy aprendiendo.",
         "p2" : "🚀 Después de recibirme como contadora, descubrí la programación por curiosidad y encontré mi verdadera pasión. Entré al bootcamp Soy Henry para seguir desarrollando mis habilidades.",
         "p3": "🎨 Soy muy creativa y disfruto creando experiencias atractivas y funcionales. Me siento cómoda trabajando en equipo, aportando mis habilidades para alcanzar objetivos compartidos.",
         "p4": "🌟 Actualmente trabajo para la startup chilena Canal Cero, principalmente con Wordpress y mejorando continuamente. Siempre estoy ansiosa por aprender nuevas herramientas."
     },
     "services": {
+        "title": "Servicios",
         "s1": "Desarrollo a medida",
         "s2" : "Desarrollo Full Stack",
         "s3": "Desarrollo en Wordpress",
