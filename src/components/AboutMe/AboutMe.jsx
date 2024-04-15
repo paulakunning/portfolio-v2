@@ -5,7 +5,7 @@ import './About.scss'
 
 export default function AboutMe() {
   return (
-    <div className='about-wrapper'>
+    <div className='about-wrapper' id='about'>
       <div>
         <h3 className='section-title'>{i18n.t('about.title')}</h3>
       </div>

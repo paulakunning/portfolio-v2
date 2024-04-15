@@ -9,7 +9,7 @@ import './styles/_root.scss'
 
 function App () {
 
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
  
 
   return (

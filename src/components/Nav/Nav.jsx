@@ -20,10 +20,10 @@ export default function Nav({handleChange, isChecked, isOpen}) {
         <button className={active === false ? "active" : ""} onClick={() => changeLanguage('es')}>ES</button>
       </div>
       <div className='links-container'>
-        <p>{i18n.t('nav.link1')}</p>
-        <p>{i18n.t('nav.link2')}</p>
-        <p>{i18n.t('nav.link3')}</p>
-        <p>{i18n.t('nav.link4')}</p>
+        <a href='#about'>{i18n.t('nav.link1')}</a>
+        <a>{i18n.t('nav.link2')}</a>
+        <a>{i18n.t('nav.link3')}</a>
+        <a>{i18n.t('nav.link4')}</a>
       </div>
       <div className='dark-mode-btn-container'>
         <button  className='dark-mode-btn' onClick={handleChange} checked={isChecked} > {isChecked ? <BsFillSunFill color='#1B1522' size={25} /> : <FaMoon color='#543F5E' size={25} /> } 

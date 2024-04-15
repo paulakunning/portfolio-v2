@@ -13,7 +13,7 @@ export default function Header( {isChecked, handleChange}) {
   }
 
   return (
-    <div className='header-wrapper'>
+    <div className={ isOpen? 'header-wrapper wrapper-mobile-menu' : 'header-wrapper'}>
       <div className='header-container'>
         <div className='mobile-menu-container'>
           <button className='mobile-menu' onClick={() => handleIsOpen()}  >{isOpen ? <IoCloseOutline size={25} /> : <IoMenuOutline size={25} />}</button>

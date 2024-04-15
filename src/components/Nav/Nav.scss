@@ -8,6 +8,8 @@ display: flex;
 justify-content: space-between;
 color: var(--text-primary);
 
+
+
 .lang-btns-container { 
     display: flex;
     gap: 20px;
@@ -35,6 +37,13 @@ color: var(--text-primary);
     justify-content: space-around;
     max-width: 860px;
     width: 100%;
+    a {
+        text-decoration: none;
+        color: var(--text-primary);
+        &:hover {
+            font-weight: 500;
+        }
+    }
 }
 .dark-mode-btn{
     cursor: pointer;
@@ -54,7 +63,6 @@ color: var(--text-primary);
     .show {
         display: flex;
         flex-direction: column-reverse;
-        height: 80vh;
         width: 100%;
         .dark-mode-btn-container {
             width: 50%;
@@ -66,6 +74,7 @@ color: var(--text-primary);
             max-height: 350px;
             width: 100%;
             gap: 70px;
+            margin: 120px 0;
         }
         .lang-btns-container {
             justify-content: center;

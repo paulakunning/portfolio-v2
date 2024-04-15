@@ -55,24 +55,34 @@
 
 
 @media screen and (max-width: 768px) {
-    .hidden {
-        display: none;
-    }
+    
+    .wrapper-mobile-menu {
 
+        height: 100vh;
+        position: fixed;
+        width: 100%;
+    }
     .header-wrapper {
+        
         .header-container{
             border-radius: 0px 0px 15px 15px;
             .header-content {
                 flex-direction: column-reverse;
+                float: right;
                 h1 {
                     margin: 16px 0 24px 0;
                     font-size: 28px;
                 }
                 h2 {
                     font-size: 24px;
+                    margin-bottom: 20;
                 }
                 .avatar img {
                     max-width: 150px;
+                }
+                .contact-btn {
+                    width: 100%;
+                    margin-top: 0;
                 }
             }
         }
