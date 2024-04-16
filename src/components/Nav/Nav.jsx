@@ -21,7 +21,7 @@ export default function Nav({handleChange, isChecked, isOpen}) {
       </div>
       <div className='links-container'>
         <a href='#about'>{i18n.t('nav.link1')}</a>
-        <a>{i18n.t('nav.link2')}</a>
+        <a href='#services'>{i18n.t('nav.link2')}</a>
         <a>{i18n.t('nav.link3')}</a>
         <a>{i18n.t('nav.link4')}</a>
       </div>

@@ -5,7 +5,10 @@ import './Services.scss'
 
 export default function Services() {
   return (
-    <div>
+    <div id='services'>
+      <div>
+        <h3 className='section-title' >{i18n.t('services.title')} </h3>
+      </div>
       <div className='service-cards-container'>
         <div className='service-card'>
           <img src="src\assets\custom-web-development.png" alt="" />
