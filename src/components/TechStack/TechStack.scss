@@ -1,0 +1,45 @@
+@import "/src/styles/root";
+
+.tech-stack-wrapper {
+    padding-top: 40px;
+    
+    .stack-group {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        padding: 0px 50px;
+        .stack-element{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+            
+            p {
+                color: var(--text-primary);
+                font-family: $FontUbuntu;
+                font-size: 24px;
+            }
+        }
+
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .tech-stack-wrapper {
+        .stack-group {
+            padding: 0px 20px;
+            gap: 10px;
+    
+            .stack-element {
+                margin-bottom: 20px;
+        
+            }
+        }
+
+    }
+
+
+}
