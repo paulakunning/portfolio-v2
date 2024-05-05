@@ -10,7 +10,7 @@ import { HiMiniPaintBrush } from "react-icons/hi2";
 
 export default function Projects() {
   return (
-    <div>
+    <div id='projects'>
         <h3 className='section-title'>{i18n.t('projects.title')}</h3>
       <swiper-container navigation="true" >
         <swiper-slide> 
@@ -163,7 +163,6 @@ export default function Projects() {
                           <a href={i18n.t('projects.project-link5')} target="blank"> 
                           Design
                         </a>
-
                       </div>
                     </div>
                 </div>

@@ -1,47 +1,52 @@
 @import "/src/styles/root";
 
-.slide-container {
-    margin-top: 50px;
-    display: flex;
-    background-color: var(--bg-secondary);
-    padding: 25px;
-    border-radius: 18px;
-    .left-col {
-        img {
+#projects{
+    padding-top: 40px;
+    margin-top: 120px;
 
-            border-radius: 18px;
-            max-width: 60vw;
-        }
-
-        .badges-container {
-            display: flex;
-            .badge {
-                width: fit-content;
-                border: solid 1px var(--text-primary);
-                border-radius: 25px;
-                padding: 4px 12px;
-                p {
-                    color: var(--text-primary);
-                    font-family: $FontUbuntu;
-                    font-size: 16px;
-            
+    .slide-container {
+        margin-top: 50px;
+        display: flex;
+        background-color: var(--bg-secondary);
+        padding: 25px;
+        border-radius: 18px;
+        .left-col {
+            img {
+    
+                border-radius: 18px;
+                max-width: 60vw;
+            }
+    
+            .badges-container {
+                display: flex;
+                .badge {
+                    width: fit-content;
+                    border: solid 1px var(--text-primary);
+                    border-radius: 25px;
+                    padding: 4px 12px;
+                    p {
+                        color: var(--text-primary);
+                        font-family: $FontUbuntu;
+                        font-size: 16px;
+                
+                    }
                 }
             }
         }
-    }
-    .right-col{
-        display: flex;
-        flex-direction: column;
-        .links-container {
-            display: flex;
-           div {
+        .right-col{
             display: flex;
             flex-direction: column;
-           }
+            .links-container {
+                display: flex;
+               div {
+                display: flex;
+                flex-direction: column;
+               }
+            }
+            p {
+                color: var(--text-primary);
+            }
         }
-        p {
-            color: var(--text-primary);
-        }
+    
     }
-
 }

@@ -16,11 +16,11 @@ const resources = {
 };
 
 i18n
-    .use(detector)
+   /*  .use(detector) */
     .use(reactI18nextModule) // passes i18n down to react-i18next
   .init({
     resources,
-    fallbackLng: "en",
+    fallbackLng: "en",  
     interpolation: {
       escapeValue: false // react already safes from xss
     }

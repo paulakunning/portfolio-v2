@@ -7,9 +7,11 @@
     },
     "home": {
         "title": "Hi, I'm",
-        "text1": "A creative full-stack developer",
+        "text1": "A creative",
         "text2":"I love turning beautiful designs into functional interfaces",
-        "button-cta": "Let’s talk!"
+        "data": ["Full-stack developer", "WordPress developer", "React developer"],
+        "button-cta1": "Let’s talk!",
+        "button-cta2": "See my work"
     },
     "about":{
         "title": "About me",

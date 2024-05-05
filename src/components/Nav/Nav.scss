@@ -41,7 +41,7 @@ color: var(--text-primary);
         text-decoration: none;
         color: var(--text-primary);
         &:hover {
-            font-weight: 500;
+            text-shadow: var(--text-primary) 0px 0px 25px;
         }
     }
 }

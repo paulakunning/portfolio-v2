@@ -12,27 +12,34 @@
 
 .header-container{
     background-color: var(--bg-secondary);
-    padding: 33px;
+    padding: 60px 60px 0px 60px;
     border-radius: 15px;
-    width: 90%;
+    width: 85%;
     box-shadow: var(--bg-header-shadow);
+    height: 70vh;
+    
 
     .header-content{
         display: flex;
         align-items: center;
         justify-content: space-between;
         color: var(--text-primary);
+        padding: 100px 40px 20px 40px;
+        gap: 20px;
         h1 {
             font-family: $FontMontserrat;
             font-weight: 500;
             font-size: 36px;
-            margin: 90px 0 27px 0;
+            margin: 0px 0 27px 0;
         }
         h2 {
             font-family: $FontUbuntu;
             font-size: 24px;
             font-weight: 400;
             margin-bottom: 30px;
+            span {
+                color: #EF94C2;
+            }
         }
 
         .avatar img {
@@ -40,13 +47,24 @@
         }
 
         .contact-btn {
-            padding: 24px 28px;
+            padding: 16px 22px;
             border: solid 1px #FFDEFA;
             border-radius: 15px;
             font-family: $FontUbuntu;
-            font-size: 28px;
+            font-size: 24px;
             background-color: var(--lang-btn-bg);
             color: var(--lang-btn-color);
+            margin: 30px 30px 0 0;
+        }
+        .work-btn{
+            padding: 16px 22px;
+            border: solid 1px #FFDEFA;
+            border-radius: 15px;
+            font-family: $FontUbuntu;
+            font-size: 24px;
+            background-color: transparent;
+            /* background-color: var(--lang-btn-bg); */
+            color: var(--lang-btn-bg);
             margin-top: 30px;
         }
     }

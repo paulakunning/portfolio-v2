@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import i18n from '../../i18n'
 import Nav from '../Nav/Nav'
 import { IoCloseOutline, IoMenuOutline } from "react-icons/io5";
+import Typewriter from '../Typewriter/Typewriter';
 import './Header.scss'
 
 export default function Header( {isChecked, handleChange}) {
@@ -21,9 +22,10 @@ export default function Header( {isChecked, handleChange}) {
         <Nav isChecked={isChecked} handleChange={handleChange} isOpen={isOpen} />
         <div className={isOpen ? 'hidden' : 'header-content'}>
           <div>  <h1>{i18n.t('home.title')} Paula </h1>
-            <h2>{i18n.t('home.text1')}</h2>
+            <h2>{i18n.t('home.text1')} <Typewriter data={[i18n.t('home.data.0'), i18n.t('home.data.1'), i18n.t('home.data.2')]} /> </h2>
             <h2>{i18n.t('home.text2')}</h2>
-            <button className='contact-btn'>{i18n.t('home.button-cta')}</button>
+            <button className='contact-btn'>{i18n.t('home.button-cta1')}</button>
+            <button className='work-btn'>{i18n.t('home.button-cta2')}</button>
           </div>
           <div className='avatar'>     
             <img src='src\assets\paulakunning-avatar.png' alt="" /></div>

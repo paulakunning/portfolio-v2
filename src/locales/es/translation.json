@@ -7,9 +7,11 @@
     },
     "home": {
         "title": "Hola, soy",
-        "text1": "Desarrolladora full-stack creativa",
+        "text1": "Desarrolladora",
         "text2":"Me apasiona transformar hermosos diseños en interfaces funcionales.",
-        "button-cta": "¡Hablemos!"
+        "data": ["Full-stack", "WordPress", "React"],
+        "button-cta1": "¡Hablemos!",
+        "button-cta2": "Mira mi trabajo"
     },
     "about":{
         "title": "Sobre mí",
